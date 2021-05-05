@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+<title>Inicio</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/miestilo.css}">
+</head>
+<body>
+	<div id="contenedor">
+		<header th:replace="layout/header :: header"></header>
+		<div id="medio">
+			<section>
+				<h3> En construccion... </h3>
+			</section>
+			<aside th:replace="layout/publicidad :: publicidad"></aside>	
+		</div>
+	<footer th:replace="layout/footer :: footer"></footer>
+	</div>
+</body>
+</html>
